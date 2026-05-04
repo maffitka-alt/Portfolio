@@ -98,13 +98,13 @@ img {
 }
 
 .left-keys {
-  top: 0%;
+  top: -20%;
   left: -10%;
   width: 35%;
 }
 
 .right-keys {
-  top: 0%;
+  top: -20%;
   right: -10%;
   width: 35%;
 }
