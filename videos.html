@@ -13,40 +13,6 @@
   <img src="homebutton.png" alt="home">
 </a>
 
-<div class="video-page">
-
-  <!-- CLOSED GATE -->
-  <img src="video.png" class="video-menu" id="menuImage" alt="videos menu">
-
-  <!-- CLICKABLE KEYS -->
-  <button class="video-key key1" onclick="playVideo('https://player.vimeo.com/video/1189116097')"></button>
-
-  <button class="video-key key2" onclick="playVideo('https://player.vimeo.com/video/1189116122')"></button>
-
-  <button class="video-key key3" onclick="playVideo('https://player.vimeo.com/video/1189147187')"></button>
-
-  <button class="video-key key4" onclick="playVideo('https://player.vimeo.com/video/1189115962')"></button>
-
-  <button class="video-key key5" onclick="playVideo('https://player.vimeo.com/video/1189115918')"></button>
-
-  <button class="video-key key6" onclick="playVideo('https://player.vimeo.com/video/1189148215')"></button>
-
-
-  <!-- OPEN GATE + VIDEO -->
-  <div class="player" id="player">
-
-    <img src="playing.png" class="playing-img" alt="playing">
-
-    <iframe
-      id="videoPlayer"
-      src=""
-      allow="autoplay; fullscreen"
-      allowfullscreen>
-    </iframe>
-
-  </div>
-
-</div>
 <div class="video-wrapper">
 
   <!-- GATE + VIDEO -->
@@ -60,14 +26,17 @@
     </div>
   </div>
 
-  <!-- KEYS (separate layer) -->
   <div class="keys-container">
-    <button class="video-key key1" onclick="playVideo('...')"></button>
-    <button class="video-key key2" onclick="playVideo('...')"></button>
-    <!-- etc -->
+    <button class="video-key key1" onclick="playVideo('https://player.vimeo.com/video/1189116097')"></button>
+    <button class="video-key key2" onclick="playVideo('https://player.vimeo.com/video/1189116122')"></button>
+    <button class="video-key key3" onclick="playVideo('https://player.vimeo.com/video/1189147187')"></button>
+    <button class="video-key key4" onclick="playVideo('https://player.vimeo.com/video/1189115962')"></button>
+    <button class="video-key key5" onclick="playVideo('https://player.vimeo.com/video/1189115918')"></button>
+    <button class="video-key key6" onclick="playVideo('https://player.vimeo.com/video/1189148215')"></button>
   </div>
 
 </div>
+  
 <script>
 function playVideo(link) {
   document.getElementById("menuImage").style.display = "none";
