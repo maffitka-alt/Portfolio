@@ -47,7 +47,27 @@
   </div>
 
 </div>
+<div class="video-wrapper">
 
+  <!-- GATE + VIDEO -->
+  <div class="gate-container">
+    <img src="video.png" class="video-menu" id="menuImage">
+
+    <div class="player" id="player">
+      <img src="playing.png" class="playing-img">
+
+      <iframe id="videoPlayer"></iframe>
+    </div>
+  </div>
+
+  <!-- KEYS (separate layer) -->
+  <div class="keys-container">
+    <button class="video-key key1" onclick="playVideo('...')"></button>
+    <button class="video-key key2" onclick="playVideo('...')"></button>
+    <!-- etc -->
+  </div>
+
+</div>
 <script>
 function playVideo(link) {
   document.getElementById("menuImage").style.display = "none";
