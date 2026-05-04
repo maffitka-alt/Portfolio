@@ -1,31 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Videos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body class="videos-page">
 
-<a href="index.html" id="homeBtn">
+<a href="index.html" class="home-button">
   <img src="homebutton.png" alt="home">
 </a>
 
-<div id="videoStage">
+<div class="stage">
 
-  <img src="left-keys.png" id="leftKeys" alt="left keys">
-  <img src="right-keys.png" id="rightKeys" alt="right keys">
+  <img src="video.png" id="menuImage" class="gate-img" alt="video menu">
 
-  <div id="gateBox">
-    <img src="video.png" id="menuImage" alt="video menu">
-
-    <div id="player">
-      <img src="playing.png" id="playingImage" alt="playing">
-      <iframe id="videoPlayer" src="" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    </div>
+  <div id="player">
+    <img src="playing.png" class="gate-img" alt="playing">
+    <iframe id="videoPlayer" src="" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div>
 
-  <div id="clickLayer">
-    <button class="video-key key1" onclick="playVideo('https://player.vimeo.com/video/1189116097')"></button>
-    <button class="video-key key2" onclick="playVideo('https://player.vimeo.com/video/1189116122')"></button>
-    <button class="video-key key3" onclick="playVideo('https://player.vimeo.com/video/1189147187')"></button>
-    <button class="video-key key4" onclick="playVideo('https://player.vimeo.com/video/1189115962')"></button>
-    <button class="video-key key5" onclick="playVideo('https://player.vimeo.com/video/1189115918')"></button>
-    <button class="video-key key6" onclick="playVideo('https://player.vimeo.com/video/1189148215')"></button>
-  </div>
+  <img src="left-keys.png" class="left-keys" alt="left keys">
+  <img src="right-keys.png" class="right-keys" alt="right keys">
+
+  <button class="video-key key1" onclick="playVideo('https://player.vimeo.com/video/1189116097')"></button>
+  <button class="video-key key2" onclick="playVideo('https://player.vimeo.com/video/1189116122')"></button>
+  <button class="video-key key3" onclick="playVideo('https://player.vimeo.com/video/1189147187')"></button>
+  <button class="video-key key4" onclick="playVideo('https://player.vimeo.com/video/1189115962')"></button>
+  <button class="video-key key5" onclick="playVideo('https://player.vimeo.com/video/1189115918')"></button>
+  <button class="video-key key6" onclick="playVideo('https://player.vimeo.com/video/1189148215')"></button>
 
 </div>
 
@@ -35,9 +39,9 @@ function playVideo(link) {
   document.getElementById("player").style.display = "block";
 
   const player = document.getElementById("videoPlayer");
-  player.src = "";
   player.src = link + "?autoplay=1&muted=1";
 }
 </script>
 
 </body>
+</html>
