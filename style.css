@@ -52,8 +52,6 @@ img {
   rotate: 45deg;
 }
 
-
-
 .home-button {
   position: fixed;
   top: 40px;   /* pushes it down (~1cm feel) */
@@ -68,9 +66,8 @@ img {
 /* PAGE */
 .video-page {
   position: relative;
-  width: 90%;          /* smaller than before */
-  max-width: 900px;    /* caps size */
-  margin: 0 auto;      /* horizontal centring */
+  width: 100%;
+  margin: 0 auto;
 }
 
 .videos-page {
@@ -80,6 +77,39 @@ img {
   align-items: center;
 }
 
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gate-container {
+  position: relative;
+  width: 100%;  
+  margin: 0 auto;
+}
+
+.video-menu,
+.playing-img {
+  width: 100%;
+  display: block;
+}
+
+.keys-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-key {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
 /* CLOSED GATE IMAGE */
 .video-menu {
   width: 100%;
