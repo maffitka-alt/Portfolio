@@ -90,15 +90,6 @@ img {
   z-index: 1;
 }
 
-/* KEYS (shared) */
-.keys {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  pointer-events: none; /* 🔥 important so clicks go through */
-  z-index: 5;
-}
-
 /* LEFT KEYS */
 .left-keys {
   left: 0;
