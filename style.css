@@ -1,9 +1,15 @@
-
+/* GLOBAL */
 html, body {
   margin: 0;
   overflow-x: hidden;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* HOME PAGE */
 .home-page {
   min-height: 100vh;
   display: flex;
@@ -20,19 +26,10 @@ html, body {
 
 .home-page .container img {
   width: 100%;
-  height: auto;
   display: block;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-
 .left-link {
-  background: transparent;
-  border: none;
   position: absolute;
   top: 13%;
   left: 16%;
@@ -42,8 +39,6 @@ img {
 }
 
 .right-link {
-  background: transparent;
-  border: none;
   position: absolute;
   top: 14%;
   right: 15%;
@@ -52,19 +47,19 @@ img {
   rotate: 45deg;
 }
 
+/* HOME BUTTON */
 .home-button {
   position: fixed;
-  top: 40px;   /* pushes it down (~1cm feel) */
-  left: 40px;  /* margin from left */
-  z-index: 10;
+  top: 40px;
+  left: 40px;
+  z-index: 100;
 }
 
 .home-button img {
-  width: 200px;  
+  width: 200px;
 }
 
-/* VIDEO PAGE RESET */
-
+/* VIDEO PAGE */
 .videos-page {
   min-height: 100vh;
   display: flex;
@@ -72,17 +67,20 @@ img {
   align-items: center;
 }
 
+/* overall stage */
 .video-wrapper {
   position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
 }
 
+/* GATE: control gate size + position HERE */
 .gate-container {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
+  position: absolute;
+  width: 650px;        /* CHANGE GATE SIZE */
+  left: 50%;           /* gate horizontal position */
+  top: 50%;            /* gate vertical position */
+  transform: translate(-50%, -50%);
   z-index: 1;
 }
 
@@ -92,6 +90,49 @@ img {
   display: block;
 }
 
+/* LEFT KEYS: control independently HERE */
+.left-keys {
+  position: absolute;
+  width: 300px;        /* CHANGE LEFT KEYS SIZE */
+  left: 160px;         /* move left/right */
+  top: 180px;          /* move up/down */
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* RIGHT KEYS: control independently HERE */
+.right-keys {
+  position: absolute;
+  width: 300px;        /* CHANGE RIGHT KEYS SIZE */
+  right: 160px;        /* move left/right */
+  top: 180px;          /* move up/down */
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* CLICKABLE INVISIBLE BUTTONS */
+.keys-container {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+}
+
+.video-key {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* clickable areas */
+.key1 { top: 22%; right: 16%; width: 12%; height: 12%; }
+.key2 { top: 73%; left: 11%; width: 16%; height: 8%; }
+.key3 { top: 42%; right: 14%; width: 12%; height: 12%; }
+.key4 { top: 73%; right: 17%; width: 14%; height: 10%; }
+.key5 { bottom: 16%; left: 29%; width: 13%; height: 8%; }
+.key6 { top: 65%; left: 12%; width: 22%; height: 9%; }
+
+/* PLAYER */
 .player {
   display: none;
   position: relative;
@@ -108,46 +149,3 @@ img {
   border: none;
   z-index: 30;
 }
-
-/* VISUAL KEY IMAGES */
-.keys {
-  position: absolute;
-  z-index: 5;
-  pointer-events: none;
-}
-
-.left-keys {
-  top: 8%;
-  left: 14%;
-  width: 28%;
-}
-
-.right-keys {
-  top: 8%;
-  right: 14%;
-  width: 28%;
-}
-
-/* CLICKABLE INVISIBLE BUTTONS */
-.keys-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-}
-
-.video-key {
-  position: absolute;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.key1 { top: 15%; right: 9%; width: 12%; height: 20%; }
-.key2 { top: 71%; left: 5%; width: 16%; height: 7%; }
-.key3 { top: 46%; right: 7%; width: 9%; height: 18%; }
-.key4 { top: 75%; right: 14%; width: 11%; height: 13%; }
-.key5 { bottom: 7%; left: 28%; width: 12%; height: 7%; }
-.key6 { top: 37%; left: 4%; width: 20%; height: 13%; }
