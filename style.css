@@ -2,14 +2,12 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
-
 .container {
   position: relative;
   width: 90%;
   max-width: 1200px;
-  margin: 20px auto 0 auto; /* top spacing only */
+  margin: 0 auto;
 }
-
 .container img {
   width: 100%;
   height: auto;
