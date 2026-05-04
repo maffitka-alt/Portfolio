@@ -112,9 +112,9 @@ img {
 /* KEY IMAGES */
 .left-keys {
   position: absolute;
-  width: 190px;      /* LEFT KEYS SIZE */
+  width: 100px;      /* LEFT KEYS SIZE */
   left: -90px;       /* LEFT KEYS LEFT/RIGHT */
-  top: 160px;        /* LEFT KEYS UP/DOWN */
+  top: 10px;        /* LEFT KEYS UP/DOWN */
   z-index: 5;
   pointer-events: none;
 }
