@@ -60,10 +60,10 @@ img {
 }
 /* VIDEO PAGE SIMPLE RESET */
 
+/* VIDEO PAGE STABLE VERSION */
+
 .videos-page {
-  margin: 0;
   min-height: 100vh;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,58 +77,22 @@ img {
 }
 
 .home-button img {
-  width: 160px;
+  width: 200px;
 }
 
-/* ONE STAGE CONTROLS EVERYTHING */
-.stage {
+.video-page {
   position: relative;
-  width: 760px;      /* CHANGE WHOLE VIDEO AREA SIZE HERE */
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* GATE */
-.gate-img {
+.video-menu,
+.playing-img {
   width: 100%;
   display: block;
 }
 
-/* PLAYER */
-#player {
-  display: none;
-  position: relative;
-  width: 100%;
-}
-
-#videoPlayer {
-  position: absolute;
-  top: 33%;
-  left: 32%;
-  width: 36%;
-  height: 38%;
-  border: none;
-  z-index: 20;
-}
-
-/* KEY IMAGES */
-.left-keys {
-  position: absolute;
-  width: 100px;      /* LEFT KEYS SIZE */
-  left: -90px;       /* LEFT KEYS LEFT/RIGHT */
-  top: 10px;        /* LEFT KEYS UP/DOWN */
-  z-index: 5;
-  pointer-events: none;
-}
-
-.right-keys {
-  position: absolute;
-  width: 190px;      /* RIGHT KEYS SIZE */
-  right: -90px;      /* RIGHT KEYS LEFT/RIGHT */
-  top: 160px;        /* RIGHT KEYS UP/DOWN */
-  z-index: 5;
-  pointer-events: none;
-}
-
-/* INVISIBLE CLICK AREAS */
 .video-key {
   position: absolute;
   background: transparent;
@@ -137,10 +101,26 @@ img {
   z-index: 10;
 }
 
-/* adjust these later only if needed */
-.key1 { top: 14%; right: 4%; width: 14%; height: 20%; }
-.key2 { top: 72%; left: -8%; width: 20%; height: 8%; }
-.key3 { top: 46%; right: -7%; width: 13%; height: 18%; }
-.key4 { top: 75%; right: 3%; width: 15%; height: 13%; }
+.key1 { top: 15%; right: 9%; width: 12%; height: 20%; }
+.key2 { top: 71%; left: 5%; width: 16%; height: 7%; }
+.key3 { top: 46%; right: 7%; width: 9%; height: 18%; }
+.key4 { top: 75%; right: 14%; width: 11%; height: 13%; }
 .key5 { bottom: 7%; left: 28%; width: 12%; height: 7%; }
-.key6 { top: 37%; left: -10%; width: 24%; height: 13%; }
+.key6 { top: 37%; left: 4%; width: 20%; height: 13%; }
+
+.player {
+  display: none;
+  position: relative;
+  width: 100%;
+  z-index: 20;
+}
+
+#videoPlayer {
+  position: absolute;
+  top: 33%;
+  left: 32.15%;
+  width: 36%;
+  height: 38%;
+  border: none;
+  z-index: 30;
+}
