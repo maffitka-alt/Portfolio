@@ -63,7 +63,6 @@ img {
   width: 200px;  
 }
 
-/* VIDEO PAGE */
 .videos-page {
   min-height: 100vh;
   display: flex;
@@ -81,6 +80,7 @@ img {
 .gate-container {
   position: relative;
   width: 90%;
+  margin: 0 auto;
   z-index: 1;
 }
 
