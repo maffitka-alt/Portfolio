@@ -90,7 +90,6 @@ img {
   z-index: 1;
 }
 
-
 .keys {
   position: absolute;
   z-index: 5;
@@ -99,15 +98,15 @@ img {
 
 /* LEFT KEYS */
 .left-keys {
-  top: 20%;
-  left: 5%;
+  top: 0%;
+  left: 0%;
   width: 35%;
 }
 
 /* RIGHT KEYS */
 .right-keys {
-  top: 20%;
-  right: 5%;
+  top: 0%;
+  right: 0%;
   width: 35%;
 }
 
