@@ -77,7 +77,7 @@ img {
 /* GATE: control gate size + position HERE */
 .gate-container {
   position: absolute;
-  width: 650px;        /* CHANGE GATE SIZE */
+  width: 900px;        /* CHANGE GATE SIZE */
   left: 50%;           /* gate horizontal position */
   top: 50%;            /* gate vertical position */
   transform: translate(-50%, -50%);
