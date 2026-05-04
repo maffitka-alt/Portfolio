@@ -1,19 +1,29 @@
 
-body {
+html, body {
   margin: 0;
   overflow-x: hidden;
+}
 
-  height: 100vh;
+.home-page {
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container {
+.home-page .container {
   position: relative;
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
+  margin: 0;
 }
+
+.home-page .container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 img {
   max-width: 100%;
   height: auto;
