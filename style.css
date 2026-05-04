@@ -35,7 +35,6 @@ img {
   border: none;
   position: absolute;
   top: 13%;
-  scale: (.9)
   left: 16%;
   width: 130px;
   height: 250px;
@@ -47,7 +46,6 @@ img {
   border: none;
   position: absolute;
   top: 14%;
-  scale: (.9)
   right: 15%;
   width: 130px;
   height: 300px;
@@ -102,6 +100,7 @@ img {
 .left-keys {
   position: absolute !important;
   top:8% !important;
+  scale: (.9)
   left: -3% !important;
   width: 20% !important;
   z-index: 5 !important;
@@ -111,6 +110,7 @@ img {
 .right-keys {
   position: absolute !important;
   top: 8% !important;
+  scale: (.9)
   right: -3% !important;
   width: 20% !important;
   z-index: 5 !important;
