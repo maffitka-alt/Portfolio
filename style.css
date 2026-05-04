@@ -63,6 +63,8 @@ img {
   width: 200px;  
 }
 
+/* VIDEO PAGE RESET */
+
 .videos-page {
   min-height: 100vh;
   display: flex;
@@ -79,7 +81,7 @@ img {
 
 .gate-container {
   position: relative;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   z-index: 1;
 }
@@ -90,7 +92,24 @@ img {
   display: block;
 }
 
-/* KEY IMAGES */
+.player {
+  display: none;
+  position: relative;
+  width: 100%;
+  z-index: 20;
+}
+
+#videoPlayer {
+  position: absolute;
+  top: 33%;
+  left: 32.15%;
+  width: 36%;
+  height: 38%;
+  border: none;
+  z-index: 30;
+}
+
+/* VISUAL KEY IMAGES */
 .keys {
   position: absolute;
   z-index: 5;
@@ -98,24 +117,18 @@ img {
 }
 
 .left-keys {
-  position: absolute !important;
-  top:8% !important;
-  left: -3% !important;
-  width: 20% !important;
-  z-index: 5 !important;
-  pointer-events: none;
+  top: 0%;
+  left: 0%;
+  width: 25%;
 }
 
 .right-keys {
-  position: absolute !important;
-  top: 8% !important;
-  right: -3% !important;
-  width: 20% !important;
-  z-index: 5 !important;
-  pointer-events: none;
+  top: 0%;
+  right: 0%;
+  width: 25%;
 }
 
-/* CLICKABLE AREAS */
+/* CLICKABLE INVISIBLE BUTTONS */
 .keys-container {
   position: absolute;
   top: 0;
@@ -138,21 +151,3 @@ img {
 .key4 { top: 75%; right: 14%; width: 11%; height: 13%; }
 .key5 { bottom: 7%; left: 28%; width: 12%; height: 7%; }
 .key6 { top: 37%; left: 4%; width: 20%; height: 13%; }
-
-/* PLAYER */
-.player {
-  display: none;
-  position: relative;
-  width: 100%;
-  z-index: 20;
-}
-
-#videoPlayer {
-  position: absolute;
-  top: 33%;
-  left: 32.15%;
-  width: 36%;
-  height: 38%;
-  border: none;
-  z-index: 30;
-}
