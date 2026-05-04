@@ -93,9 +93,9 @@ img {
 /* LEFT KEYS: control independently HERE */
 .left-keys {
   position: absolute;
-  width: 300px;        /* CHANGE LEFT KEYS SIZE */
-  left: 160px;         /* move left/right */
-  top: 180px;          /* move up/down */
+  width: 250px;        /* CHANGE LEFT KEYS SIZE */
+  left: 100px;         /* move left/right */
+  top: 170px;          /* move up/down */
   z-index: 5;
   pointer-events: none;
 }
