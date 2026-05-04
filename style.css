@@ -29,21 +29,30 @@ img {
   height: auto;
 }
 
-.left-link,
-.right-link {
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: 100%;
-}
 
 .left-link {
-  left: 0;
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 13%;
+  left: 16%;
+  width: 130px;
+  height: 250px;
+  rotate: -47deg;
 }
 
 .right-link {
-  right: 0;
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 14%;
+  right: 15%;
+  width: 130px;
+  height: 300px;
+  rotate: 45deg;
 }
+
+
 
 .home-button {
   position: absolute;
