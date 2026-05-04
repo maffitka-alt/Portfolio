@@ -68,7 +68,7 @@ img {
 /* PAGE */
 .video-page {
   position: relative;
-  width: 70%;          /* smaller than before */
+  width: 50%;          /* smaller than before */
   max-width: 900px;    /* caps size */
   margin: 0 auto;      /* horizontal centring */
 }
