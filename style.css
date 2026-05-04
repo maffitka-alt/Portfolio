@@ -1,17 +1,17 @@
 body {
-  margin: 250px auto;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .container {
   position: relative;
-  width: 90%;          /* makes it larger */
-  max-width: 1200px;   /* allows bigger than before */
-  margin: 70px auto; ;   /* THIS centers + pushes down */
+  width: 90%;
+  max-width: 1200px;
+  margin: 60px auto 0 auto; /* top spacing only */
 }
 
-/* THIS fixes your “image too big” problem */
 .container img {
-  width: 100%;     /* scales image down */
+  width: 100%;
   height: auto;
   display: block;
 }
