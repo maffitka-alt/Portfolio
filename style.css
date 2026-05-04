@@ -98,15 +98,21 @@ img {
 }
 
 .left-keys {
-  top: -20%;
-  left: -10%;
-  width: 35%;
+  position: absolute !important;
+  top: 8% !important;
+  left: -3% !important;
+  width: 25% !important;
+  z-index: 5 !important;
+  pointer-events: none;
 }
 
 .right-keys {
-  top: -20%;
-  right: -10%;
-  width: 35%;
+  position: absolute !important;
+  top: 8% !important;
+  right: -3% !important;
+  width: 25% !important;
+  z-index: 5 !important;
+  pointer-events: none;
 }
 
 /* CLICKABLE AREAS */
