@@ -98,12 +98,12 @@ img {
 }
 
 .left-keys {
-  left: 0;
-  width: 40%;              /* 👈 control size here */
+  left: 0px;
+  width: 40%;             
 }
 
 .right-keys {
-  right: 0;
+  right: 0px;
   width: 40%;
 }
 .video-menu,
