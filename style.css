@@ -99,9 +99,9 @@ img {
 
 .left-keys {
   position: absolute !important;
-  top: 6% !important;
+  top:6% !important;
   left: -3% !important;
-  width: 15% !important;
+  width: 20% !important;
   z-index: 5 !important;
   pointer-events: none;
 }
@@ -110,7 +110,7 @@ img {
   position: absolute !important;
   top: 6% !important;
   right: -3% !important;
-  width: 15% !important;
+  width: 20% !important;
   z-index: 5 !important;
   pointer-events: none;
 }
