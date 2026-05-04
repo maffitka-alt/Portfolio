@@ -102,14 +102,14 @@ img {
 /* LEFT KEYS */
 .left-keys {
   left: 0;
-  transform: scale(0.9);
+  transform: scale(0.5);
   transform-origin: center;
 }
 
 /* RIGHT KEYS */
 .right-keys {
-  left: 0;
-  transform: scale(0.9);
+  right: 0;
+  transform: scale(0.5);
   transform-origin: center;
 }
 .video-menu,
