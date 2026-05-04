@@ -74,13 +74,13 @@ img {
 .video-wrapper {
   position: relative;
   width: 100%;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .gate-container {
   position: relative;
-  width: 100%;
+  width: 90%;
   z-index: 1;
 }
 
