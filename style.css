@@ -79,7 +79,7 @@ img {
 
 .gate-container {
   position: relative;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   z-index: 1;
 }
@@ -101,7 +101,7 @@ img {
   position: absolute !important;
   top: 8% !important;
   left: -3% !important;
-  width: 25% !important;
+  width: 15% !important;
   z-index: 5 !important;
   pointer-events: none;
 }
@@ -110,7 +110,7 @@ img {
   position: absolute !important;
   top: 8% !important;
   right: -3% !important;
-  width: 25% !important;
+  width: 15% !important;
   z-index: 5 !important;
   pointer-events: none;
 }
