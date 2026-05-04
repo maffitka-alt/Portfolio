@@ -21,19 +21,17 @@
 
     <div class="player" id="player">
       <img src="playing.png" class="playing-img">
-
       <iframe id="videoPlayer"></iframe>
     </div>
   </div>
 
-   <!-- LEFT KEYS -->
-  <img src="left-keys.png" class="keys left-keys">
+  <!-- LEFT KEYS IMAGE -->
+  <img src="left-keys.png" class="keys left-keys" alt="left keys">
 
-  <!-- RIGHT KEYS -->
-  <img src="right-keys.png" class="keys right-keys">
+  <!-- RIGHT KEYS IMAGE -->
+  <img src="right-keys.png" class="keys right-keys" alt="right keys">
 
-</div>
-  
+  <!-- CLICKABLE KEY AREAS -->
   <div class="keys-container">
     <button class="video-key key1" onclick="playVideo('https://player.vimeo.com/video/1189116097')"></button>
     <button class="video-key key2" onclick="playVideo('https://player.vimeo.com/video/1189116122')"></button>
@@ -44,12 +42,10 @@
   </div>
 
 </div>
-  
+
 <script>
 function playVideo(link) {
   document.getElementById("menuImage").style.display = "none";
- 
-
   document.getElementById("player").style.display = "block";
 
   const player = document.getElementById("videoPlayer");
