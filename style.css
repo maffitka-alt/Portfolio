@@ -79,17 +79,35 @@ img {
 
 .video-wrapper {
   position: relative;
-  width: 140%;
-  max-width: 1500px;
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .gate-container {
   position: relative;
-  width: 100%;  
-  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
 }
 
+/* KEYS (shared) */
+.keys {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  pointer-events: none; /* 🔥 important so clicks go through */
+  z-index: 5;
+}
+
+/* LEFT KEYS */
+.left-keys {
+  left: 0;
+}
+
+/* RIGHT KEYS */
+.right-keys {
+  left: 0;
+}
 .video-menu,
 .playing-img {
   width: 100%;
