@@ -1,38 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Videos</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
 <body class="videos-page">
 
-<!-- HOME BUTTON -->
-<a href="index.html" class="home-button">
+<a href="index.html" id="homeBtn">
   <img src="homebutton.png" alt="home">
 </a>
 
-<div class="video-wrapper">
+<div id="videoStage">
 
-  <!-- GATE + VIDEO -->
-  <div class="gate-container">
-    <img src="video.png" class="video-menu" id="menuImage">
+  <img src="left-keys.png" id="leftKeys" alt="left keys">
+  <img src="right-keys.png" id="rightKeys" alt="right keys">
 
-    <div class="player" id="player">
-      <img src="playing.png" class="playing-img">
-      <iframe id="videoPlayer"></iframe>
+  <div id="gateBox">
+    <img src="video.png" id="menuImage" alt="video menu">
+
+    <div id="player">
+      <img src="playing.png" id="playingImage" alt="playing">
+      <iframe id="videoPlayer" src="" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
   </div>
 
-  <!-- LEFT KEYS IMAGE -->
-  <img src="left-keys.png" class="keys left-keys" alt="left keys">
-
-  <!-- RIGHT KEYS IMAGE -->
-  <img src="right-keys.png" class="keys right-keys" alt="right keys">
-
-  <!-- CLICKABLE KEY AREAS -->
-  <div class="keys-container">
+  <div id="clickLayer">
     <button class="video-key key1" onclick="playVideo('https://player.vimeo.com/video/1189116097')"></button>
     <button class="video-key key2" onclick="playVideo('https://player.vimeo.com/video/1189116122')"></button>
     <button class="video-key key3" onclick="playVideo('https://player.vimeo.com/video/1189147187')"></button>
@@ -55,4 +41,3 @@ function playVideo(link) {
 </script>
 
 </body>
-</html>
