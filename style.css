@@ -2,20 +2,6 @@ body {
   margin: 250px auto;
 }
 
-.container {
-  position: relative;
-  width: 90%;          /* makes it larger */
-  max-width: 1200px;   /* allows bigger than before */
-  margin: 80px auto;   /* THIS centers + pushes down */
-}
-
-/* THIS fixes your “image too big” problem */
-.container img {
-  width: 100%;     /* scales image down */
-  height: auto;
-  display: block;
-}
-
 /* clickable areas */
 .left-link,
 .right-link {
