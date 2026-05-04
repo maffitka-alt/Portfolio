@@ -90,18 +90,21 @@ img {
   z-index: 1;
 }
 
-/* LEFT KEYS */
-.left-keys {
-  left: 0;
-  transform: scale(0.5);
-  transform-origin: center;
+.keys {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  pointer-events: none;
 }
 
-/* RIGHT KEYS */
+.left-keys {
+  left: 0;
+  width: 40%;              /* 👈 control size here */
+}
+
 .right-keys {
   right: 0;
-  transform: scale(0.5);
-  transform-origin: center;
+  width: 40%;
 }
 .video-menu,
 .playing-img {
