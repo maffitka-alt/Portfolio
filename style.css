@@ -55,7 +55,7 @@ img {
 
 
 .home-button {
-  position: absolute;
+  position: fixed;
   top: 40px;   /* pushes it down (~1cm feel) */
   left: 40px;  /* margin from left */
   z-index: 10;
@@ -68,11 +68,17 @@ img {
 /* PAGE */
 .video-page {
   position: relative;
-   width: 100%;
-  max-width: 1400px;
-  margin: 80px auto;
+  width: 70%;          /* smaller than before */
+  max-width: 900px;    /* caps size */
+  margin: 0 auto;      /* horizontal centring */
 }
 
+.videos-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* CLOSED GATE IMAGE */
 .video-menu {
