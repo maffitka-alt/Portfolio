@@ -99,13 +99,13 @@ img {
 
 .left-keys {
   top: 0%;
-  left: 0%;
+  left: -10%;
   width: 35%;
 }
 
 .right-keys {
   top: 0%;
-  right: 0%;
+  right: -10%;
   width: 35%;
 }
 
