@@ -117,15 +117,15 @@ img {
 }
 
 .left-keys {
-  top: 0%;
-  left: 0%;
-  width: 25%;
+  top: 8%;
+  left: 8%;
+  width: 28%;
 }
 
 .right-keys {
-  top: 0%;
-  right: 0%;
-  width: 25%;
+  top: 8%;
+  right: 8%;
+  width: 28%;
 }
 
 /* CLICKABLE INVISIBLE BUTTONS */
