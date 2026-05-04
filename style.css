@@ -124,6 +124,23 @@ img {
   z-index: 5;
 }
 
+.player {
+  display: none;
+  position: relative;
+  width: 100%;
+  z-index: 20;
+}
+
+#videoPlayer {
+  position: absolute;
+  top: 33%;
+  left: 32.15%;
+  width: 36%;
+  height: 38%;
+  border: none;
+  z-index: 30;
+}
+
 .key1 { top: 15%; right: 9%; width: 12%; height: 20%; } /* naff video 3*/
 
 .key2 { top: 71%; left: 5%; width: 16%; height: 7%; } /* hardpill lineup */
