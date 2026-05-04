@@ -12,11 +12,16 @@ body {
 
 .container img {
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* clickable areas */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .left-link,
 .right-link {
   position: absolute;
@@ -51,7 +56,6 @@ body {
   max-width: 1400px;
   margin: 80px auto;
 }
-
 
 
 /* CLOSED GATE IMAGE */
