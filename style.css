@@ -6,7 +6,7 @@ body {
   position: relative;
   width: 90%;          /* makes it larger */
   max-width: 1200px;   /* allows bigger than before */
-  margin: 80px auto;   /* THIS centers + pushes down */
+  margin: 70px auto; ;   /* THIS centers + pushes down */
 }
 
 /* THIS fixes your “image too big” problem */
@@ -34,7 +34,7 @@ body {
 }
 
 .home-button {
-  position: fixed;
+  position: absolute;
   top: 40px;   /* pushes it down (~1cm feel) */
   left: 40px;  /* margin from left */
   z-index: 10;
