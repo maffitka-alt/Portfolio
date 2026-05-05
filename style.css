@@ -190,7 +190,7 @@ img {
   position: fixed;
   top: 16%;      /* ⬇ move DOWN (was ~13%) */
   right: 10%;    /* ⬅ move LEFT (increase this) */
-  width: 220px;
+  width: 4000px;
   height: 40px;
   z-index: 999999;
 }
