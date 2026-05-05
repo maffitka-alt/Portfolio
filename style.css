@@ -227,7 +227,7 @@ img {
   position: absolute;
   top: 32%;      /* adjust */
   left: 45%;     /* adjust */
-  width: 23%;    /* adjust size */
+  width: 23.5%;    /* adjust size */
   transform: translate(-50%, -50%);
   display: none;
   z-index: 50;
