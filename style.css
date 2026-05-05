@@ -190,7 +190,7 @@ img {
 .photo-buttons {
   position: fixed;
   top: 14%;
-  right: 9.5%;
+  right: 12%;
   width: 220px;   /* small, controlled area */
   height: 40px;
   z-index: 999999;
