@@ -35,6 +35,7 @@
 function hideEverything() {
   document.getElementById("photoDisplay").style.display = "none";
   document.getElementById("photoSet1").style.display = "none";
+  document.getElementById("gifOverlay").style.display = "none";
 }
 
 function showPhotoSet1() {
@@ -46,8 +47,15 @@ function showPhotoSet1() {
 function showSinglePhoto(imageName) {
   hideEverything();
   const display = document.getElementById("photoDisplay");
+
   display.src = imageName;
   display.style.display = "block";
+
+  /* 🔥 ONLY show gif on page 2 */
+  if (imageName === '2.png') {
+    document.getElementById("gifOverlay").style.display = "block";
+  }
+
   window.scrollTo(0, 0);
 }
 </script>
