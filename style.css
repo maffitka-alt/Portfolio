@@ -151,7 +151,7 @@ img {
 
 .key6 { bottom: 4%; left: 64%; width: 9%;  height: 5%; }   /* NAFF */
 
-.key7 { bottom: 4%; left: 78%; width: 8%;  height: 5%; }   /* 500k */
+.key7 { bottom: 65px; right: 80px;  width: 100px;  height: 30px; }   /* 500k */
 
 .video-key,
 .home-click {
