@@ -143,13 +143,14 @@ img {
 .key6 { top: 84%; right: 13%; width: 16%; height: 8%; }  /* NAFF video 3 */
 }
 
+/* DEBUG BUTTON BOXES */
 .video-key,
 .home-click {
   position: absolute !important;
   display: block !important;
-  background: rgba(255, 0, 0, 0.35) !important;
-  border: 2px solid red !important;
-  z-index: 999 !important;
-  min-width: 40px;
-  min-height: 40px;
+  min-width: 80px !important;
+  min-height: 80px !important;
+  background: rgba(255, 0, 0, 0.45) !important;
+  border: 3px solid red !important;
+  z-index: 99999 !important;
 }
