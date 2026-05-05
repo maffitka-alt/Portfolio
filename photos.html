@@ -10,27 +10,23 @@
 
 <div class="photo-stage">
 
-  <!-- DEFAULT POSTER -->
   <img src="photography.png" id="photoDisplay" class="photo-img" alt="photography">
 
-  <!-- HOME BUTTON (in image corner) -->
   <a href="index.html" class="photo-home" aria-label="home"></a>
 
-  <!-- PAGE 1 (SCROLL SET) -->
   <div id="photoSet1" class="photo-set">
-    <img src="1A.png" class="photo-img">
-    <img src="1B.png" class="photo-img">
-    <img src="1C.png" class="photo-img">
+    <img src="1A.png" class="photo-img" alt="photo 1A">
+    <img src="1B.png" class="photo-img" alt="photo 1B">
+    <img src="1C.png" class="photo-img" alt="photo 1C">
   </div>
 
-</div>
+  <div class="photo-buttons">
+    <button class="photo-btn btn1" onclick="showPhotoSet1()" aria-label="1"></button>
+    <button class="photo-btn btn2" onclick="showSinglePhoto('2.png')" aria-label="2"></button>
+    <button class="photo-btn btn3" onclick="showSinglePhoto('3.png')" aria-label="3"></button>
+    <button class="photo-btn btn4" onclick="showSinglePhoto('4.png')" aria-label="4"></button>
+  </div>
 
-<!-- NUMBER BUTTONS (ALWAYS AVAILABLE) -->
-<div class="photo-buttons">
-  <button onclick="showPhotoSet1()">1</button>
-  <button onclick="showSinglePhoto('2.png')">2</button>
-  <button onclick="showSinglePhoto('3.png')">3</button>
-  <button onclick="showSinglePhoto('4.png')">4</button>
 </div>
 
 <script>
