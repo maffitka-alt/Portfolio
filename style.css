@@ -173,14 +173,16 @@ img {
   height: auto;
   display: block;
 }
-
 /* hides 1A/1B/1C until button 1 is clicked */
 .photo-set {
   display: none;
+  position: relative;
+  z-index: 1;
 }
 
 .photo-set .photo-img {
   margin-bottom: 40px;
+  pointer-events: none;
 }
 
 /* invisible home button over top-left icon */
@@ -190,7 +192,7 @@ img {
   left: 5%;
   width: 14%;
   height: 18%;
-  z-index: 1000;
+  z-index: 99999;
   cursor: pointer;
 }
 
@@ -201,7 +203,7 @@ img {
   right: 7%;
   width: 22%;
   height: 8%;
-  z-index: 1000;
+  z-index: 99999;
 }
 
 .photo-btn {
@@ -217,14 +219,4 @@ img {
 .btn1 { left: 0%; }
 .btn2 { left: 25%; }
 .btn3 { left: 50%; }
-.btn4 { left: 75%; }
-
-/* DEBUG — uncomment only if you need to see boxes */
-/*
-.photo-home,
-.photo-btn {
-  background: rgba(255, 0, 0, 0.35);
-  border: 2px solid blue;
-}
-*/
-
+.btn4 { left: 80%; } /* moved slightly right */
