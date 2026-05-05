@@ -142,15 +142,18 @@ img {
 .key5 { top: 84%; right: 27%; width: 16%; height: 8%; }  /* PYK Cowboys */
 .key6 { top: 84%; right: 13%; width: 16%; height: 8%; }  /* NAFF video 3 */
 }
+/* DEBUG TEST */
+.poster {
+  outline: 10px solid lime !important;
+}
 
-/* DEBUG BUTTON BOXES */
 .video-key,
 .home-click {
   position: absolute !important;
   display: block !important;
-  min-width: 80px !important;
-  min-height: 80px !important;
-  background: rgba(255, 0, 0, 0.45) !important;
-  border: 3px solid red !important;
-  z-index: 99999 !important;
+  width: 120px !important;
+  height: 120px !important;
+  background: red !important;
+  border: 5px solid blue !important;
+  z-index: 999999 !important;
 }
