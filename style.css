@@ -133,31 +133,25 @@ img {
   width: 15%;
   height: 22%;
 }
-/* top right: all videos */
-.key1 { top: 12%; right: 10%; }
+.key1 { top: 9%; right: 10%; width: 13%; height: 10%; }   /* all videos */
 
-/* bottom row, left to right */
-.key5 { bottom: 12%; left: 8%; }    /* toothgems */
-.key6 { bottom: 12%; left: 23%; }   /* colour grading + moving castle */
-.key2 { bottom: 12%; left: 42%; }   /* hardpill lineup */
-.key4 { bottom: 12%; left: 60%; }   /* PYK Cowboys */
-.key3 { bottom: 12%; left: 88%; }   /* 500,000 */
+.key2 { bottom: 9%; left: 6%; width: 12%; height: 7%; }    /* toothgems */
 
-/* right middle: NAFF video 3 */
-.key7 { top: 55%; right: 10%; }
+.key3 { bottom: 9%; left: 21%; width: 18%; height: 8%; }   /* colour grading */
 
-/* DEBUG TEST */
-.poster {
-  outline: 10px solid lime !important;
-}
+.key4 { bottom: 9%; left: 40%; width: 18%; height: 8%; }   /* hardpill */
+
+.key5 { bottom: 9%; left: 58%; width: 16%; height: 8%; }   /* PYK */
+
+.key6 { bottom: 9%; left: 73%; width: 15%; height: 8%; }   /* NAFF */
+
+.key7 { bottom: 9%; right: 3%; width: 12%; height: 8%; }   /* 500,000 */
 
 .video-key,
 .home-click {
   position: absolute !important;
   display: block !important;
-  width: 120px !important;
-  height: 120px !important;
-  background: red !important;
-  border: 5px solid blue !important;
-  z-index: 999999 !important;
+  background: rgba(255, 0, 0, 0.35) !important;
+  border: 3px solid blue !important;
+  z-index: 99999 !important;
 }
