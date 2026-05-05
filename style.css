@@ -4,6 +4,10 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  cursor: url('cursor.png') 2 2, auto;
+}
+
 img {
   max-width: 100%;
   height: auto;
