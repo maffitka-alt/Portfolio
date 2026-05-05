@@ -141,17 +141,15 @@ img {
 .key4 { top: 84%; left: 42%; width: 18%; height: 8%; }   /* hardpill */
 .key5 { top: 84%; right: 27%; width: 16%; height: 8%; }  /* PYK Cowboys */
 .key6 { top: 84%; right: 13%; width: 16%; height: 8%; }  /* NAFF video 3 */
-.key7 { top: 84%; right: 2%; width: 12%; height: 8%; }   /* 500,000 */
 }
 
 .video-key,
 .home-click {
   position: absolute !important;
+  display: block !important;
   background: rgba(255, 0, 0, 0.35) !important;
   border: 2px solid red !important;
   z-index: 999 !important;
-}
-
-body {
-  background: pink !important;
+  min-width: 40px;
+  min-height: 40px;
 }
