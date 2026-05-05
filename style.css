@@ -188,8 +188,8 @@ img {
 /* FINAL CLEAN PHOTO NAV */
 .photo-buttons {
   position: fixed;
-  top: 10%;
-  right: 10%;
+  top: 12.5%;
+  right: 9%;
   width: 220px;   /* small, controlled area */
   height: 40px;
   z-index: 999999;
