@@ -141,48 +141,18 @@ img {
   height: 10%;
 } /* all videos */
 
-/* BOTTOM ROW — LOWER + BIGGER TO COVER TEXT */
-.key2 {
-  bottom: 2%;
-  left: 6%;
-  width: 13%;
-  height: 12%;
-} /* toothgems */
+.key2 { bottom: 4%; left: 5%;  width: 8%;  height: 5%; }   /* toothgems */
 
-.key3 {
-  bottom: 2%;
-  left: 22%;
-  width: 16%;
-  height: 12%;
-} /* colour grading */
+.key3 { bottom: 4%; left: 18%; width: 10%; height: 5%; }   /* colour grading */
 
-.key4 {
-  bottom: 2%;
-  left: 40%;
-  width: 16%;
-  height: 12%;
-} /* hardpill lineup */
+.key4 { bottom: 4%; left: 34%; width: 10%; height: 5%; }   /* hardpill */
 
-.key5 {
-  bottom: 2%;
-  left: 56%;
-  width: 15%;
-  height: 12%;
-} /* PYK Cowboys */
+.key5 { bottom: 4%; left: 50%; width: 9%;  height: 5%; }   /* PYK */
 
-.key6 {
-  bottom: 2%;
-  left: 72%;
-  width: 15%;
-  height: 12%;
-} /* NAFF video 3 */
+.key6 { bottom: 4%; left: 64%; width: 9%;  height: 5%; }   /* NAFF */
 
-.key7 {
-  bottom: 2%;
-  right: 3%;
-  width: 12%;
-  height: 12%;
-} /* 500,000 */
+.key7 { bottom: 4%; left: 78%; width: 8%;  height: 5%; }   /* 500k */
+
 .video-key,
 .home-click {
   position: absolute !important;
