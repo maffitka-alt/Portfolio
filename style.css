@@ -207,10 +207,10 @@ img {
 }
 
 /* adjust these */
-.btn1 { left: 0px; }     /* move left/right */
-.btn2 { left: 50px; }
-.btn3 { left: 110px; }
-.btn4 { left: 180px; }
+.btn1 { left: -50px; }   /* was 0px */
+.btn2 { left: 0px; }     /* was 50px */
+.btn3 { left: 50px; }    /* was 110px */
+.btn4 { left: 110px; }   /* was 180px */
 
 .btn1 { left: -10px; }
 .btn2 { left: 40px; }
