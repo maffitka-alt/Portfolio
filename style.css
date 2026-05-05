@@ -137,13 +137,13 @@ img {
 .key1 {
   top: 9%;
   right: 8%;
-  width: 12%;
+  width: 6%;
   height: 10%;
 } /* all videos */
 
 .key2 { bottom: 65px; left: 80px;  width: 100px;  height: 30px; }   /* toothgems */
 
-.key3 { bottom: 65px; left: 270px;  width: 120px;  height: 50px; }   /* colour grading */
+.key3 { bottom: 70px; left: 270px;  width: 120px;  height: 50px; }   /* colour grading */
 
 .key4 { bottom: 65px; left: 490px;  width: 110px;  height: 30px; }   /* hardpill */
 
