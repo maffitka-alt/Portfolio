@@ -143,9 +143,9 @@ img {
 
 .key2 { bottom: 65px; left: 80px;  width: 100px;  height: 30px; }   /* toothgems */
 
-.key3 { bottom: 4%; left: 18%; width: 10%; height: 5%; }   /* colour grading */
+.key3 { bottom: 65px; left: 230px;  width: 100px;  height: 30px; }   /* colour grading */
 
-.key4 { bottom: 4%; left: 34%; width: 10%; height: 5%; }   /* hardpill */
+.key4 { bottom: 65px; left: 380px;  width: 100px;  height: 30px; }   /* hardpill */
 
 .key5 { bottom: 65px; right: 395px;  width: 135px;  height: 30px }   /* PYK */
 
