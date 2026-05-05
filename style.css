@@ -212,8 +212,6 @@ img {
 .btn3 { left: 50px; }    /* was 110px */
 .btn4 { left: 100px; }   /* was 180px */
 
-.btn1 { left: -10px; }
-.btn2 { left: 40px; }
 
 .photo-home {
   position: fixed;
