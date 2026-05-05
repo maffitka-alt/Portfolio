@@ -185,52 +185,33 @@ img {
   pointer-events: none;
 }
 
-/* invisible home button over top-left icon */
-.photo-home {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  width: 14%;
-  height: 18%;
-  z-index: 99999;
-  cursor: pointer;
-}
+/* FINAL CLEAN PHOTO NAV */
 
-/* invisible number buttons over your drawn 1–4 */
 .photo-buttons {
-  position: absolute;
+  position: fixed;
   top: 7%;
   right: 7%;
   width: 22%;
   height: 8%;
-  z-index: 99999;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999999;
 }
 
 .photo-btn {
-  position: absolute;
-  top: 0;
-  height: 100%;
   width: 20%;
+  height: 100%;
   background: transparent;
   border: none;
   cursor: pointer;
 }
 
-.btn1 { left: 0%; }
-.btn2 { left: 25%; }
-.btn3 { left: 50%; }
-.btn4 { left: 80%; } /* moved slightly right */
-
-.photo-buttons,
 .photo-home {
-  z-index: 999999 !important;
-  pointer-events: auto !important;
-}
-
-.photo-btn {
-  pointer-events: auto !important;
-}
-
-.photo-set .photo-img {
-  pointer-events: none;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  width: 14%;
+  height: 18%;
+  z-index: 999999;
+  cursor: pointer;
 }
