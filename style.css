@@ -153,11 +153,3 @@ img {
 
 .key7 { bottom: 65px; right: 90px;  width: 70px;  height: 30px; }   /* 500k */
 
-.video-key,
-.home-click {
-  position: absolute !important;
-  display: block !important;
-  background: rgba(255, 0, 0, 0.35) !important;
-  border: 3px solid blue !important;
-  z-index: 99999 !important;
-}
