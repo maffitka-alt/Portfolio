@@ -4,9 +4,6 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
-  cursor: url('mouse.png') 2 2, auto;
-}
 
 img {
   max-width: 100%;
