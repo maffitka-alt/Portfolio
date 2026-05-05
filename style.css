@@ -190,7 +190,7 @@ img {
   position: fixed;
   top: 16%;      /* ⬇ move DOWN (was ~13%) */
   right: 10%;    /* ⬅ move LEFT (increase this) */
-  width: 4000px;
+  width: 8000px;
   height: 40px;
   z-index: 999999;
 }
@@ -209,8 +209,8 @@ img {
 /* adjust these */
 .btn1 { left: -100px; }   /* was 0px */
 .btn2 { left: -50px; }     /* was 50px */
-.btn3 { left: 50px; }    /* was 110px */
-.btn4 { left: 100px; }   /* was 180px */
+.btn3 { left: 110px; }    /* was 110px */
+.btn4 { left: 180px; }   /* was 180px */
 
 
 .photo-home {
