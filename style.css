@@ -103,33 +103,33 @@ img {
   display: block;
 }
 
-/* hidden until a video is clicked */
 .player {
   display: none;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  z-index: 10;
 }
 
-/* video inside open gate */
+.player .poster-img {
+  width: 100%;
+  display: block;
+}
+
 #videoPlayer {
   position: absolute;
-  top: 33%;
-  left: 32%;
-  width: 32%;
-  height: 38%;
+  top: 31%;
+  left: 35%;
+  width: 30%;
+  height: 34%;
   border: none;
   z-index: 20;
 }
 
-/* invisible clickable areas */
 .video-key,
 .home-click {
-  position: absolute;
-  background: rgba(255, 0, 0, 0.25);
-  border: 2px solid red;
-  cursor: pointer;
   z-index: 30;
-  
 }
 
 /* home button area */
