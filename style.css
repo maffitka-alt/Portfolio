@@ -225,8 +225,8 @@ img {
 
 .gif-overlay {
   position: absolute;
-  top: 30%;      /* adjust */
-  left: 30%;     /* adjust */
+  top: 33%;      /* adjust */
+  left: 35%;     /* adjust */
   width: 25%;    /* adjust size */
   transform: translate(-50%, -50%);
   display: none;
