@@ -201,8 +201,8 @@ img {
   top: 0;
   width: 40px;
   height: 100%;
-  background: rgba(255, 0, 0, 0.3); /* debug */
-  border: 2px solid red;            /* debug */
+  background: transparent;
+  border: none;            
   cursor: pointer;
 }
 
