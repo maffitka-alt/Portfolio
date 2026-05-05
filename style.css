@@ -223,7 +223,6 @@ img {
 
 .photo-buttons,
 .photo-home {
-  position: fixed !important;
   z-index: 999999 !important;
   pointer-events: auto !important;
 }
@@ -232,8 +231,6 @@ img {
   pointer-events: auto !important;
 }
 
-.photo-set,
-.photo-set img,
-.photo-img {
+.photo-set .photo-img {
   pointer-events: none;
 }
