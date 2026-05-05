@@ -189,22 +189,32 @@ img {
 
 .photo-buttons {
   position: fixed;
-  top: 7%;
+  top: 13%;
   right: 7%;
-  width: 22%;
-  height: 8%;
-  display: flex;
-  justify-content: space-between;
+  width: 220px;   /* controls total spacing area */
+  height: 40px;
   z-index: 999999;
 }
 
+/* each button placed manually */
 .photo-btn {
-  width: 20%;
+  position: absolute;
+  top: 0;
+  width: 40px;
   height: 100%;
   background: transparent;
   border: none;
   cursor: pointer;
 }
+
+/* adjust these */
+.btn1 { left: 0px; }     /* move left/right */
+.btn2 { left: 50px; }
+.btn3 { left: 110px; }
+.btn4 { left: 180px; }
+
+.btn1 { left: -10px; }
+.btn2 { left: 40px; }
 
 .photo-home {
   position: fixed;
