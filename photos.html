@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photography</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="photos-page">
+
+<div class="photo-stage">
+
+  <!-- DEFAULT POSTER -->
+  <img src="photography.png" id="photoDisplay" class="photo-img" alt="photography">
+
+  <!-- HOME BUTTON (in image corner) -->
+  <a href="index.html" class="photo-home" aria-label="home"></a>
+
+  <!-- PAGE 1 (SCROLL SET) -->
+  <div id="photoSet1" class="photo-set">
+    <img src="1A.png" class="photo-img">
+    <img src="1B.png" class="photo-img">
+    <img src="1C.png" class="photo-img">
+  </div>
+
+</div>
+
+<!-- NUMBER BUTTONS (ALWAYS AVAILABLE) -->
+<div class="photo-buttons">
+  <button onclick="showPhotoSet1()">1</button>
+  <button onclick="showSinglePhoto('2.png')">2</button>
+  <button onclick="showSinglePhoto('3.png')">3</button>
+  <button onclick="showSinglePhoto('4.png')">4</button>
+</div>
+
+<script>
+function hideEverything() {
+  document.getElementById("photoDisplay").style.display = "none";
+  document.getElementById("photoSet1").style.display = "none";
+}
+
+function showPhotoSet1() {
+  hideEverything();
+  document.getElementById("photoSet1").style.display = "block";
+  window.scrollTo(0, 0);
+}
+
+function showSinglePhoto(imageName) {
+  hideEverything();
+  const display = document.getElementById("photoDisplay");
+  display.src = imageName;
+  display.style.display = "block";
+  window.scrollTo(0, 0);
+}
+</script>
+
+</body>
+</html>
