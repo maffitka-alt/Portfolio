@@ -222,3 +222,13 @@ img {
   z-index: 999999;
   cursor: pointer;
 }
+
+.gif-overlay {
+  position: absolute;
+  top: 40%;      /* adjust */
+  left: 50%;     /* adjust */
+  width: 20%;    /* adjust size */
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 50;
+}
